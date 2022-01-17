@@ -1,0 +1,14 @@
+/tmp
+/keys
+/cluster
+/secrets
+/kops-creds
+/kops/creds
+/prod.yml
+/kubeconfig
+*/.DS_Store
+/zones
+/myvalues.yaml
+/account.json
+# ides
+.idea
