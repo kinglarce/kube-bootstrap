@@ -28,7 +28,7 @@ kubectl get pods -o json
 
 kubectl get pods -o yaml
 
-kubectl describe pod db
+kubectl describe pod db # Used for returing all the pod details
 
 kubectl describe -f pod/db.yml
 
@@ -40,7 +40,7 @@ echo 'db.stats()' | mongo localhost:27017/test
 
 exit
 
-kubectl logs db
+kubectl logs db # Checking the logs
 
 kubectl exec -it db pkill mongod
 
